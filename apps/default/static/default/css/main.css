@@ -1,0 +1,47 @@
+form{
+  padding: 10px;
+}
+h1{
+  margin: 0;
+}
+form textarea{
+  vertical-align: top;
+}
+form div{
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 20px 0 0;
+}
+div label, div input, div textarea{
+  display: block;
+}
+div label:first-of-type, div input{
+  margin-bottom: 10px;
+}
+div input, div textarea{
+  width: 495px;
+  border: 1px solid black;
+}
+#submit{
+  display: block;
+  margin-top: 10px;
+  position: relative;
+  left: 560px;
+}
+h2{
+  padding: 10px;
+}
+table{
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,td{
+  width: 30%;
+  text-align: left;
+  padding: 5px;
+}
+th:last-of-type, td:last-of-type{
+  width: 10%;
+}
